@@ -13,8 +13,8 @@ Latest version v7.3:
 
 Download:
 
-Windows: https://github.com/nanopool/Claymore-Dual-Miner/releases/download/v7.3/Claymore.s.Dual.Ethereum.Decred_Siacoin_Lbry.AMD.NVIDIA.GPU.Miner.v7.3.zip
-Linux: https://github.com/nanopool/Claymore-Dual-Miner/releases/download/v7.3/Claymore.s.Dual.Ethereum.Decred_Siacoin_Lbry.AMD.NVIDIA.GPU.Miner.v7.3.-.LINUX.tar.gz
+* Windows: https://github.com/nanopool/Claymore-Dual-Miner/releases/download/v7.3/Claymore.s.Dual.Ethereum.Decred_Siacoin_Lbry.AMD.NVIDIA.GPU.Miner.v7.3.zip
+* Linux: https://github.com/nanopool/Claymore-Dual-Miner/releases/download/v7.3/Claymore.s.Dual.Ethereum.Decred_Siacoin_Lbry.AMD.NVIDIA.GPU.Miner.v7.3.-.LINUX.tar.gz
 
 
 NVIDIA DRIVERS:
