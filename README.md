@@ -1,6 +1,42 @@
 Claymore's Dual Ethereum+Decred AMD+NVIDIA GPU Miner.
 =========================
 
+Latest version is v9.0:
+
+- added "-asm" option (AMD cards only) which enables assembler GPU kernels. In this mode some tuning is required even in ETH-only mode, use "-dcri" option or or "+/-" keys in runtime to set best speed.
+    Currently only ETH-only and ETH-DCR modes are supported in assembler. Use "-asm 0" if you don't want to use new assembler kernels.
+    If ASM mode is enabled, miner must show "GPU #x: algorithm ASM" at startup.
+- improved ETH mining speed in ASM mode for some cards, also a bit reduced power usage for some cards (fine-tuning is required via "-dcri" or "+/-" keys in runtime). 
+    NOTE 1: if GPU throttles, best "-dcri" value is different.
+    NOTE 2: speed peak can be rather short, so change "-dcri" value slowly.
+- dramatically increased DCR mining speed in assembler mode (up to 70%). Be careful, power usage is higher too.
+- added "-gmap" option.
+- fixed DCR Nicehash support.
+- added "FINE-TUNING" section to Readme file.
+- A lot of minor improvements and bug fixes.
+
+Latest version v8.1:
+
+- added Ethereum+Pascal mode for NVidia cards.
+- improved "-di detect" option: now after GPU order detection miner starts mining with the detected order.
+- now remote management is working in read-only mode by default.
+- improved "-mport" option, now you can specify network adapter IP for incoming connections for remote management.
+- added "-benchmark" option.
+- fixed issue with "-retrydelay" option.
+- added  "-v" option.
+- a few minor bug fixes and improvements.
+- EthMan: added option for font color selection.
+
+
+
+Latest version v8.0:
+
+- added new coin for dual mode: PASCAL(PASC). Now you can mine Ethereum, Ethereum+Decred, Ethereum+Siacoin, Ethereum+Lbry or Ethereum+Pascal. NOTE: Currently Pascal is not available for NVidia cards.
+- added "-nofee" option.
+- added ability to use environment variables in "epools.txt", "dpools.txt" and "config.txt" files. For example, define "WORKER" environment variable and use it as "%WORKER%" in config.txt.
+- added "License.txt" file.
+- some minor improvements.
+
 Latest version v7.3:
 
 - now miner supports HTTP for remote monitoring, you can check miner state remotely via browser, check "-mport" option for details.
