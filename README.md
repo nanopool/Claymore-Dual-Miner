@@ -1,6 +1,12 @@
 Claymore's Dual Ethereum+Decred AMD+NVIDIA GPU Miner.
 =========================
 
+Latest version is v9.1:
+
+- added assembler kernels for ETH+SIA and ETH+PASCAL modes (major speedup for SIA and PASCAL).
+- added alternative assembler kernels for Tonga and Polaris cards for ETH-only mode. Use them if you get best speed at "-dcri 1" (i.e. you cannot find speed peak), use "-asm 2" option to enable this mode.
+- a few minor bug fixes and improvements.
+
 Latest version is v9.0:
 
 - added "-asm" option (AMD cards only) which enables assembler GPU kernels. In this mode some tuning is required even in ETH-only mode, use "-dcri" option or or "+/-" keys in runtime to set best speed.
