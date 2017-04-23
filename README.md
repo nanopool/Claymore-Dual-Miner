@@ -1,6 +1,16 @@
 Claymore's Dual Ethereum+Decred AMD+NVIDIA GPU Miner.
 =========================
 
+Latest version is v9.2:
+
+- improved mining speed stability.
+- added changes in DCR mining protocol.
+- fixed possible issue with rejected DCR shares on Nicehash pool.
+- added pool selection in runtime ("e" and "d" keys).
+- now if devfee mining fails for a long time, miner will not stop mining, it will turn on "-nofee" option temporarily with appropriate warnings, until successful devfee mining.
+- some minor improvements.
+- EthMan: added ReasonID parameter to .bat file which is executed when some rig has problems, check "sample.bat" for details.
+
 Latest version is v9.1:
 
 - added assembler kernels for ETH+SIA and ETH+PASCAL modes (major speedup for SIA and PASCAL).
