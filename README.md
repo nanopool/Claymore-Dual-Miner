@@ -1,6 +1,12 @@
 Claymore's Dual Ethereum+Decred AMD+NVIDIA GPU Miner.
 =========================
 
+Latest version is v9.3:
+
+- improved dual mining speed stability in ASM mode.
+- added "-altnum" option for alternative GPU indexing.
+- a few minor bug fixes and improvements.
+
 Latest version is v9.2:
 
 - improved mining speed stability.
