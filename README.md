@@ -1,6 +1,13 @@
 Claymore's Dual Ethereum+Decred AMD+NVIDIA GPU Miner.
 =========================
 
+Latest version is v9.4:
+
+- improved fans management for latest drivers and Polaris cards.
+- added "-mpsw" option.
+- added shares-per-GPU statistics when "s" key is pressed.
+- Included EthMan v3.0 which supports passwords and email notifications.
+
 Latest version is v9.3:
 
 - improved dual mining speed stability in ASM mode.
