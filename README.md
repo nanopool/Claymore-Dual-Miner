@@ -1,6 +1,15 @@
 Claymore's Dual Ethereum+Decred AMD+NVIDIA GPU Miner.
 =========================
 
+Latest version is v9.5:
+
+- fixed issue with PASC, miner could check some nonces twice. Effective hashrate must be a bit higher now.
+- improved SIA support for Nicehash, added "mining.extranonce.subscribe" and "client.reconnect" commands support. Effective hashrate must be a bit higher now.
+- a few minor bug fixes and improvements.
+- EthMan: added ability to enable/disable GPUs remotely (see API.txt for tech details).
+- EthMan: added notification for too high fan speed.
+- EthMan: several minor bug fixes and improvements.
+
 Latest version is v9.4:
 
 - improved fans management for latest drivers and Polaris cards.
