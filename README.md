@@ -1,6 +1,36 @@
 Claymore's Dual Ethereum+Decred AMD+NVIDIA GPU Miner.
 =========================
 
+Latest version is v9.7:
+
+- Added ASM mode for RX460/560 cards, up to 30% speedup for second coin in dual mode.
+- Improved ETH speed for some Nvidia cards.
+- Improved speed in dual mode for Nvidia cards.
+- reduced initialization time.
+- a few minor bug fixes and improvements.
+- EthMan: added ability to select several rigs.
+- EthMan: several minor bug fixes and improvements.
+
+Latest version is v9.6:
+
+- new GPU sorting method for AMD cards. Now GPUs are sorted by physical bus index (it matches AfterBurner list of GPUs). Also the list of temperatures/fans matches the list of GPUs automatically.
+  Therefore "-di detect" and "-gmap" options are not necessary and not supported anymore.
+  WARNING: be careful if you use use separate overclock/temperature settings for every card, due to new sorting method GPUs can get different indexes!
+- added "-minspeed" option to restart miner/system if miner cannot reach specified speed.
+- now watchdog monitors initialization steps too, e.g. it will restart miner even if miner hangs at GPUs initialization.
+- added "-allcoins etc" option for ETC pools that require Username.Worker, in this mode devfee will be mined on some default ETC pools and DAG will not be recreated.
+- added current DAG size info when "s" key is pressed.
+- added 1 minute average speed for ETH when "s" key is pressed.
+- fixed connection timeout issue in Linux version.
+- fixed some issues related to remote management via TCP/IP.
+- added "-ejobtimeout" and "-djobtimeout" options.
+- fixed epoch #0 support.
+- a few minor bug fixes and improvements.
+- EthMan: fixed issue with lost connection to some rigs.
+- EthMan: added password for webserver.
+- EthMan: added separate settings for every event.
+- EthMan: added "retrigger" option for lost connection event.
+
 Latest version is v9.5:
 
 - fixed issue with PASC, miner could check some nonces twice. Effective hashrate must be a bit higher now.
