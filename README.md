@@ -1,6 +1,15 @@
 Claymore's Dual Ethereum+Decred AMD+NVIDIA GPU Miner.
 =========================
 
+Latest version is v9.8:
+
+- added Vega cards support (ASM mode).
+- added fan/OC support for 17.7.2 (and higher) drivers.
+- fixed issue with -ttli and -ttdcr option for Nvidia cards.
+- improved support for systems with more than 10 GPUs, check readme for "-di" and "-mode" options description for details.
+- a few minor bug fixes and improvements.
+
+
 Latest version is v9.7:
 
 - Added ASM mode for RX460/560 cards, up to 30% speedup for second coin in dual mode.
