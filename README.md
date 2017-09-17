@@ -1,6 +1,17 @@
 Claymore's Dual Ethereum+Decred AMD+NVIDIA GPU Miner.
 =========================
 
+Latest version is v10.0:
+
+- added assembler kernels for ETH+LBC mining mode (AMD cards only), major speedup for LBC.
+- about 1% ETH speedup for Vega cards.
+- fixed issues with voltage/clocks management for latest AMD blockchain drivers (not completely).
+- new GPU sorting method for NVIDIA cards. Now GPUs are sorted by physical bus index (it matches AfterBurner list of GPUs).
+- for ETH+LBC mining mode maximal "dcri" value is 1000 now.
+- added "-platform" option.
+- added "ESTALE" option support in failover file epools.txt (see "-estale" option for details).
+- several minor bug fixes and improvements.
+
 Latest version is v9.8:
 
 - added Vega cards support (ASM mode).
