@@ -1,6 +1,14 @@
 Claymore's Dual Ethereum+Decred AMD+NVIDIA GPU Miner.
 =========================
 
+Latest version is v11.8:
+
+- fixed issue with missed GPU temperatures when miner is started via Remote Desktop Connection (RDC).
+- Linux version: removed libcurl library dependency.
+- added "-showdiff" option.
+- a few minor bug fixes and improvements.
+
+
 Latest version is v10.0:
 
 - added assembler kernels for ETH+LBC mining mode (AMD cards only), major speedup for LBC.
