@@ -1,6 +1,15 @@
 Claymore's Dual Ethereum+Decred AMD+NVIDIA GPU Miner.
 =========================
 
+Latest version is v12.0:
+
+- zero devfee for all 2GB and 3GB cards in all operating systems.
+- reduced devfee for dual mode, now it is 1%, same as for ETH-only mode.
+- a bit reduced required GPU memory (both AMD and NVIDIA) so you can mine ETH a bit longer on cards that don't have enough memory.
+- added version for CUDA 10.0, it is a bit faster for latest 20xx NVIDIA cards.
+- a few minor bug fixes and improvements.
+
+
 Latest version is v11.8:
 
 - fixed issue with missed GPU temperatures when miner is started via Remote Desktop Connection (RDC).
