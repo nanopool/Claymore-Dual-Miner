@@ -1,5 +1,10 @@
 Claymore's Dual Ethereum+Decred AMD+NVIDIA GPU Miner.
 =========================
+Latest version is v14.5 Beta - Supercharged Edition:
+
+- added "-rxboost" option for AMD Polaris cards, use "-rxboost 1" to improve hashrate by about 5% by applying some additional memory timings. You can use your own straps or use "-strap" option, you will get boost anyway. 
+   See Readme for additional information.
+- fixed issue with overclock reset for Nvidia cards.
 
 Latest version is v12.0:
 
